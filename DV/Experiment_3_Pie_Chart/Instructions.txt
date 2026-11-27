@@ -1,0 +1,12 @@
+EXPERIMENT 3: PIE CHART
+Aim: Show each category's share of total revenue.
+
+Power BI steps:
+1. Import category_revenue.csv.
+2. Select the Pie chart visual.
+3. Drag Category to Legend and Revenue to Values.
+4. In Format visual > Detail labels, turn labels on and choose percent of total if available.
+5. Set the title to "Revenue Share by Category".
+6. Save as DV_Experiment_3_Pie_Chart.pbix.
+
+Expected result: A pie chart showing the proportion of revenue contributed by each category.

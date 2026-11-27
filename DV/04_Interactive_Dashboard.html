@@ -1,0 +1,10 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Retail Sales Dashboard</title>
+<script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script></head>
+<body style="font-family:Arial;margin:30px"><h1>Interactive Retail Sales Dashboard</h1>
+<div id="chart" style="width:100%;height:520px"></div><script>
+Plotly.newPlot('chart',[
+{x:['Technology','Furniture','Office Supplies'],y:[8600,5400,2550],type:'bar',name:'Sales by Category'},
+{x:['Jan','Feb','Mar','Apr','May','Jun'],y:[2100,2950,2200,3100,2300,2500],type:'scatter',mode:'lines+markers',name:'Monthly Sales',xaxis:'x2',yaxis:'y2'}
+],{title:'Retail Sales Overview',grid:{rows:1,columns:2,pattern:'independent'},
+xaxis:{title:'Category'},yaxis:{title:'Sales'},xaxis2:{title:'Month'},yaxis2:{title:'Sales'}});
+</script></body></html>

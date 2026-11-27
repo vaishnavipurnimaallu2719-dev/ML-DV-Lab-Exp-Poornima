@@ -1,0 +1,12 @@
+EXPERIMENT 6: SLICERS AND FILTERS
+Aim: Filter report data interactively using slicers.
+
+Power BI steps:
+1. Import employee_performance.csv.
+2. Add a Table visual with Employee, Department, City and Performance_Score.
+3. Add a Slicer visual and drag Department into its Field.
+4. Add a second Slicer and drag City into its Field.
+5. Select different departments and cities; confirm the table responds.
+6. Save as DV_Experiment_6_Slicers_Filters.pbix.
+
+Expected result: Selecting a department or city filters the employee table.

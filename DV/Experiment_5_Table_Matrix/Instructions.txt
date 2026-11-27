@@ -1,0 +1,12 @@
+EXPERIMENT 5: TABLE AND MATRIX
+Aim: Present and summarize sales data using Table and Matrix visuals.
+
+Power BI steps:
+1. Import regional_sales.csv.
+2. Add a Table visual. Add Region, Product, Sales and Quantity to its columns.
+3. Add a Matrix visual.
+4. Drag Region to Rows, Product to Columns and Sales to Values.
+5. Set the title of the visuals to "Regional Sales Table" and "Sales Matrix".
+6. Save as DV_Experiment_5_Table_Matrix.pbix.
+
+Expected result: A detailed table and a cross-tabulated matrix of sales by region and product.

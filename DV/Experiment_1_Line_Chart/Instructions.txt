@@ -1,0 +1,12 @@
+EXPERIMENT 1: LINE CHART
+Aim: Create a line chart to show the monthly sales trend.
+
+Power BI steps:
+1. Open Power BI Desktop.
+2. Select Home > Get data > Text/CSV and import monthly_sales.csv.
+3. In Report view, select the Line chart visual.
+4. Drag Month to X-axis and Sales to Y-axis (Values).
+5. Set the title to "Monthly Sales Trend".
+6. Save as DV_Experiment_1_Line_Chart.pbix.
+
+Expected result: A line chart showing the change in sales from January to December.

@@ -1,0 +1,15 @@
+EXPERIMENT 8: INTERACTIVE SALES DASHBOARD
+Aim: Build a dashboard-style report combining multiple visuals and interactive filters.
+
+Power BI steps:
+1. Import dashboard_sales.csv.
+2. Create measures using the formulas in DAX_Measures.txt.
+3. Add a Card for Total Sales and another Card for Total Profit.
+4. Add a clustered column chart with Region on X-axis and Sales on Y-axis.
+5. Add a donut chart with Category as Legend and Sales as Values.
+6. Add a line chart: Date on X-axis and Sales on Y-axis.
+7. Add a Slicer using Region.
+8. Arrange and resize visuals neatly; use Format visual to add clear titles.
+9. Save as DV_Experiment_8_Interactive_Dashboard.pbix.
+
+Expected result: A single report page with summary cards, regional comparison, category share, sales trend and an interactive region slicer.

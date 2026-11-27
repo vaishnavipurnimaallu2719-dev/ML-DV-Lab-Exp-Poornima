@@ -1,0 +1,13 @@
+EXPERIMENT 7: CARDS AND KPI
+Aim: Display key performance indicators such as total sales and target achievement.
+
+Power BI steps:
+1. Import monthly_targets.csv.
+2. In the Fields pane, right-click the table and choose New measure.
+3. Create the measures shown in DAX_Measures.txt.
+4. Add a Card visual and place Total Sales in it.
+5. Add another Card visual and place Total Target in it.
+6. Add a KPI visual. Set Indicator to Total Sales, Trend axis to Month and Target goals to Total Target.
+7. Save as DV_Experiment_7_Cards_KPI.pbix.
+
+Expected result: Cards display actual and target totals; KPI visual compares performance with the target.

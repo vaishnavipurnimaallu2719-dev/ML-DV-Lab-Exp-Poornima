@@ -1,0 +1,15 @@
+DAX MEASURES
+Create each measure from Modeling > New measure.
+
+Total Sales = SUM('dashboard_sales'[Sales])
+
+Total Target = SUM('dashboard_sales'[Sales])
+
+For Experiment 8, use the table name 'dashboard_sales':
+Total Sales = SUM('dashboard_sales'[Sales])
+
+Total Profit = SUM('dashboard_sales'[Profit])
+
+Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
+
+Note: If Power BI gives a table-name error, replace the table name in the formula with the exact name shown in your Fields pane.

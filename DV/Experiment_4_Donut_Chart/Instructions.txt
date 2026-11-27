@@ -1,0 +1,12 @@
+EXPERIMENT 4: DONUT CHART
+Aim: Visualize the distribution of transactions by payment method.
+
+Power BI steps:
+1. Import payment_methods.csv.
+2. Select the Donut chart visual.
+3. Drag Payment_Method to Legend and Transactions to Values.
+4. Turn on detail labels in the Format visual pane.
+5. Set the title to "Transactions by Payment Method".
+6. Save as DV_Experiment_4_Donut_Chart.pbix.
+
+Expected result: A donut chart comparing transaction counts by payment method.

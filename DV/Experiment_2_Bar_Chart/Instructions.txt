@@ -1,0 +1,12 @@
+EXPERIMENT 2: BAR CHART
+Aim: Compare units sold across products.
+
+Power BI steps:
+1. Import product_sales.csv using Home > Get data > Text/CSV.
+2. Select the Clustered bar chart visual.
+3. Drag Product to Y-axis and Units_Sold to X-axis (Values).
+4. Sort by Units_Sold in descending order.
+5. Set the title to "Units Sold by Product".
+6. Save as DV_Experiment_2_Bar_Chart.pbix.
+
+Expected result: A horizontal bar chart comparing the units sold for each product.
